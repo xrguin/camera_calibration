@@ -1,0 +1,281 @@
+{
+  "calibrations": {
+    "old": "usb_cam/iphone13wide/calibration.npz",
+    "new": "usb_cam/iphone16wide/calibration.npz"
+  },
+  "geometry": {
+    "image_size": [
+      1920,
+      1080
+    ],
+    "intrinsics": {
+      "fx": {
+        "old_px": 750.10707034797,
+        "new_px": 717.625639462862,
+        "delta_px": -32.48143088510801,
+        "delta_percent_of_old": -4.330239264381294
+      },
+      "fy": {
+        "old_px": 749.9671039545806,
+        "new_px": 717.796711274453,
+        "delta_px": -32.170392680127634,
+        "delta_percent_of_old": -4.289573837371397
+      },
+      "cx": {
+        "old_px": 963.1970782750998,
+        "new_px": 963.8261916574085,
+        "delta_px": 0.6291133823086739,
+        "delta_percent_of_old": 0.06531512568905365
+      },
+      "cy": {
+        "old_px": 542.331170073625,
+        "new_px": 537.668195798607,
+        "delta_px": -4.662974275017973,
+        "delta_percent_of_old": -0.8598020051816206
+      }
+    },
+    "effective_fov_deg": {
+      "old": {
+        "horizontal_deg": 104.76264526146647,
+        "vertical_deg": 71.65165650094876
+      },
+      "new": {
+        "horizontal_deg": 106.84424039047349,
+        "vertical_deg": 73.99412640565804
+      },
+      "delta": {
+        "horizontal_deg": 2.081595129007013,
+        "vertical_deg": 2.342469904709276
+      }
+    },
+    "same_pixel_ray_angle_delta_deg": {
+      "median": 1.1234854913871681,
+      "p95": 1.4327172216513022,
+      "max": 1.4846780375699171
+    },
+    "equivalent_lateral_delta_at_2m_cm": {
+      "median": 3.9222068859638033,
+      "p95": 5.002169185265594,
+      "max": 5.183664274954372
+    },
+    "same_ray_projection_delta_px": {
+      "median": 25.479403769093025,
+      "p95": 38.01610836477651,
+      "max": 41.613675055726
+    },
+    "dist_coefficients": {
+      "old": [
+        -4.958301893981995,
+        7.014966344324887,
+        0.00022739227180202913,
+        -0.0002364958894374419,
+        -1.0925567598352186,
+        -4.952566746003062,
+        6.986946740221681,
+        -1.055728413134066,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "new": [
+        -2.200837976341412,
+        1.1487115738547127,
+        -0.0008873841459194323,
+        -1.8504349640111613e-05,
+        0.16994753222880735,
+        -2.1957631447457513,
+        1.1367130141005177,
+        0.177402328195167,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta": [
+        2.7574639176405826,
+        -5.866254770470174,
+        -0.0011147764177214614,
+        0.00021799153979733027,
+        1.262504292064026,
+        2.7568036012573107,
+        -5.850233726121163,
+        1.2331307413292332,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpretation": "Diagnostic only: rational-model coefficients are correlated; use ray/projection differences for functional comparison."
+    }
+  },
+  "model_validation": {
+    "old": {
+      "roundtrip_max_error_px": 2.9619470915942728e-05,
+      "roundtrip_bad_fraction_over_1px": 0.0,
+      "safe_radius_fraction": 0.9752965851207703
+    },
+    "new": {
+      "roundtrip_max_error_px": 2.982455494646268e-08,
+      "roundtrip_bad_fraction_over_1px": 0.0,
+      "safe_radius_fraction": 0.9752965851207703
+    }
+  },
+  "view_quality": {
+    "old": {
+      "usable_views": 64,
+      "grid": [
+        [
+          6,
+          11,
+          11,
+          19,
+          8,
+          5
+        ],
+        [
+          9,
+          12,
+          18,
+          28,
+          13,
+          8
+        ],
+        [
+          4,
+          8,
+          11,
+          23,
+          25,
+          13
+        ],
+        [
+          3,
+          7,
+          2,
+          11,
+          14,
+          9
+        ]
+      ],
+      "empty_cells": 0,
+      "minimum_views_per_cell": 2,
+      "furthest_corner_radius_fraction": 0.8713994992947808,
+      "refit_rms_px": 0.21215773276947614,
+      "stored_refit_K_max_abs_delta_px": 1.951553940671147e-06
+    },
+    "new": {
+      "usable_views": 33,
+      "grid": [
+        [
+          5,
+          6,
+          5,
+          5,
+          5,
+          3
+        ],
+        [
+          8,
+          12,
+          7,
+          8,
+          9,
+          6
+        ],
+        [
+          8,
+          14,
+          12,
+          14,
+          10,
+          3
+        ],
+        [
+          4,
+          8,
+          8,
+          7,
+          4,
+          1
+        ]
+      ],
+      "empty_cells": 0,
+      "minimum_views_per_cell": 1,
+      "furthest_corner_radius_fraction": 0.8418662507515694,
+      "refit_rms_px": 0.22627543150600157,
+      "stored_refit_K_max_abs_delta_px": 0.4718242798468282
+    }
+  },
+  "checkerboard_cross_validation": {
+    "old_views": {
+      "old_model_global_rms_px": 0.2121575582829174,
+      "new_model_global_rms_px": 0.5068700022481673,
+      "rms_ratio_new_over_old": 2.389120643876583,
+      "pose_delta": {
+        "translation_norm_cm": {
+          "median": 13.640846516903046,
+          "p95": 21.466428085730982,
+          "max": 28.349173763205503
+        },
+        "range_delta_percent_signed": {
+          "median": -3.06213019577203,
+          "p05": -4.058107531890713,
+          "p95": -0.5476829789318503,
+          "min": -4.6159199940950195,
+          "max": 0.2240055221597088
+        },
+        "range_delta_percent_abs": {
+          "median": 3.06213019577203,
+          "p95": 4.058107531890713,
+          "max": 4.6159199940950195
+        },
+        "rotation_angle_deg": {
+          "median": 0.9252182857092046,
+          "p95": 4.632785258582015,
+          "max": 5.282954353859429
+        }
+      }
+    },
+    "new_views": {
+      "new_model_global_rms_px": 0.2265920147017725,
+      "old_model_global_rms_px": 0.7881681728378078,
+      "rms_ratio_old_over_new": 3.4783581137011814,
+      "pose_delta": {
+        "translation_norm_cm": {
+          "median": 11.721680332551655,
+          "p95": 16.15237143182781,
+          "max": 16.770503460163233
+        },
+        "range_delta_percent_signed": {
+          "median": 2.489299342550231,
+          "p05": 0.7051836451156055,
+          "p95": 4.086718123847141,
+          "min": 0.09356907778710935,
+          "max": 4.279787538891952
+        },
+        "range_delta_percent_abs": {
+          "median": 2.489299342550231,
+          "p95": 4.086718123847141,
+          "max": 4.279787538891952
+        },
+        "rotation_angle_deg": {
+          "median": 1.0971072297234505,
+          "p95": 2.6748046086185515,
+          "max": 3.1370845020460796
+        }
+      }
+    }
+  },
+  "interpretation_notes": [
+    "PnP cross-validation refits board pose separately for each model.",
+    "Pose deltas use the stated checkerboard square size for metric scale.",
+    "Same-pixel ray deltas are the most direct wrong-calibration impact."
+  ]
+}
